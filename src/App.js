@@ -15,7 +15,6 @@ const App = () => {
     { id: 4, date: '2023-07-17', description: 'Entertainment', amount: -13.25 },
     { id: 5, date: '2023-08-17', description: 'Gift', amount: 50 },
 
-
     // Add more transactions here as needed
   ]);
 
