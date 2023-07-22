@@ -12,6 +12,10 @@ const App = () => {
     { id: 1, date: '2023-07-15', description: 'Food', amount: 2500 },
     { id: 2, date: '2023-07-16', description: 'Transport', amount: -100 },
     { id: 3, date: '2023-07-17', description: 'Housing', amount: -975 },
+    { id: 4, date: '2023-07-17', description: 'Entertainment', amount: -13.25 },
+    { id: 5, date: '2023-08-17', description: 'Gift', amount: 50 },
+
+
     // Add more transactions here as needed
   ]);
 
@@ -31,14 +35,15 @@ const App = () => {
   );
 
   return (
-    <div>
-      <h1>Bank Transactions</h1>
-      <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-      <Transtab transactions={filteredTransactions} deleteTransaction={deleteTransaction} />
-      <Transform addTransaction={addTransaction} />
-      <Summary transactions={filteredTransactions} /> {/* Include the Summary component */}
-      <AccountForm addTransaction={addTransaction} /> {/* Include the AccountForm component */}
-    </div>
+    <div className="container">
+    <h1>FlatIron Bank Transactions</h1>
+    <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+    <Transtab transactions={filteredTransactions} deleteTransaction={deleteTransaction} />
+    <Transform addTransaction={addTransaction} />
+    <Summary transactions={filteredTransactions} /> 
+    <AccountForm addTransaction={addTransaction} /> 
+  </div>
+  
   );
 };
 
