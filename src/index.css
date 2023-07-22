@@ -16,7 +16,7 @@ h1 {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #fdf9f9;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-top: 1rem;
@@ -34,7 +34,7 @@ form {
   margin: 0 auto;
   padding: 20px;
   background-color: #f0f0f0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
 
@@ -60,7 +60,7 @@ button:hover {
 }
 
 button:disabled {
-  background-color: #ccc;
+  background-color: #8b7777;
   cursor: not-allowed;
 }
 
