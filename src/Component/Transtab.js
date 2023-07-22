@@ -4,9 +4,7 @@ import React from 'react';
 const Transtab = ({ transactions, sortField, onSort, deleteTransaction }) => {
   return (
     <table>
-      <thead>
-        {/* ... */}
-      </thead>
+  
       <tbody>
         {transactions.map((transaction) => (
           <tr key={transaction.id}>
