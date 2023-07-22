@@ -8,7 +8,6 @@ const Account = ({ transactions }) => {
     <div>
       <h2>Account Information</h2>
       <p>Account Balance: ${accountBalance.toFixed(2)}</p>
-      {/* Add more account-related information here if needed */}
     </div>
   );
 };
