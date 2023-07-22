@@ -1,7 +1,6 @@
 // components/SearchBar.js
 import React from 'react';
 
-
 const Search = ({ searchTerm, setSearchTerm }) => {
   return (
     <input
