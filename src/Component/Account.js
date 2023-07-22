@@ -1,7 +1,6 @@
 // Component/Account.js
 import React from 'react';
 
-
 const Account = ({ transactions }) => {
   const accountBalance = transactions.reduce((total, transaction) => total + transaction.amount, 0);
 
