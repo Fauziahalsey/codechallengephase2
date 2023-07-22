@@ -1,4 +1,4 @@
-// components/TransactionForm.js
+// components/TransForm.js
 import React, { useState } from 'react';
 
 const Transform = ({ addTransaction }) => {
@@ -27,7 +27,7 @@ const Transform = ({ addTransaction }) => {
         onChange={(e) => setDate(e.target.value)}
         placeholder="Date"
         required
-        
+
       />
       <input
         type="text"
