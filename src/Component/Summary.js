@@ -1,4 +1,4 @@
-// Component/Summary.js
+// Summary
 import React from 'react';
 
 const Summary = ({ transactions }) => {

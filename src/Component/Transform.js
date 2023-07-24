@@ -1,4 +1,4 @@
-// components/TransForm.js
+//TransForm
 import React, { useState } from 'react';
 
 const Transform = ({ addTransaction }) => {

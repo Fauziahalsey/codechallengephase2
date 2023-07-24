@@ -1,4 +1,4 @@
-// Component/Account.js
+//Account.js
 import React from 'react';
 
 const Account = ({ transactions }) => {
