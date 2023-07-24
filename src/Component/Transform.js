@@ -22,10 +22,10 @@ const Transform = ({ addTransaction }) => {
   return (
     <form onSubmit={handleSubmit}>
       <input
-        type="text"
+        type="date"
         value={date}
         onChange={(e) => setDate(e.target.value)}
-        placeholder="Date"
+        // placeholder="Date"
         required
 
       />
